@@ -1,0 +1,121 @@
+
+body{
+    font-family: 'BIZ UDGothic', sans-serif;
+font-family: 'Comic Neue', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fascinate', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Smooch', cursive;
+font-family: 'Space Grotesk', sans-serif;
+    background-color:rgb(192, 230, 230);
+    background-image: url('lofii.jpg');
+}
+body img{
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+nav ul li{
+    padding: 0 10px;
+}
+.brand img{
+    width: 34px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.bar{
+    font-size: 90%;
+}
+.container{
+    background-color: black;
+    color: white;
+    min-height: 75vh;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url('lofi.webp');
+    background-repeat: no-repeat;
+    background-size: 1210px 700px;
+}
+
+.bottom{
+    position: sticky;
+    height: 55px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 8px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 85vw;
+    cursor:pointer;
+}
+.songItemContainer{
+    margin-top: 50px;
+}
+.songItem{
+    height: 30px;
+    display: flex;
+    background-color: white;
+    color: black;
+    border-radius: 22px;
+    width: 110%;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 9px;
+}
+.songItem img{
+    width: 25px;
+    border-radius: 19px;
+}
+.timestamp{
+    margin: 10 20px;
+    margin-right: 10px;  
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songname{
+    margin: auto;
+
+}
+.songlistplay{
+    margin: auto;
+    margin-right:2px;
+} 
+.songInfo{
+    left: 10vh;
+    position: absolute;
+    margin-left: 20px;
+    padding-top: 12px;
+    font-size: 10px;
+}
+.songInfo img{
+    opacity:0;
+    transition: opacity 0.3s ease-in;
+}
